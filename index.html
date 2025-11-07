@@ -1,82 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Мое резюме</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Студента</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключите ваш CSS файл -->
     <style>
         body {
-            font-family: Arial;
-            max-width: 800px;
-            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            margin: 0;
             padding: 20px;
-            background-color: #f0f0f0;
+            background-color: #f4f4f4;
         }
-        
-        .header {
+        header {
             text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
             background: white;
             padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        
-        .section {
-            background: white;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 10px;
-        }
-        
-        h1 {
+        h2 {
             color: #333;
         }
-        
-        h2 {
-            color: #555;
-            border-left: 4px solid #007acc;
-            padding-left: 10px;
+        .contact-info {
+            margin-bottom: 20px;
         }
-        
-        ul {
-            line-height: 1.6;
+        .skills, .experience, .education {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .experience li, .education li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <h1>Зухрахон Арыбжанова</h1>
-        <p>Студентка УГНТУ</p>
-    </div>
+<header>
+    <h1>Арыбжанова Зухрахон</h1>
+    <p>Студент | Будущий программист |</p>
+</header>
 
-    <div class="section">
-        <h2>Образование</h2>
-        <p><strong>Университет:</strong> УГНТУ</p>
-        <p><strong>Курс:</strong> 2 курс</p>
-        <p><strong>Специальность:</strong> Прикладная информатика</p>
-        <p><strong>Группа:</strong> БПИ09-24-01</p>
-    </div>
+<section class="contact-info">
+    <h2>Контактная информация</h2>
+    <p>Email: zuhra.arybzhanova@mail.ru </p>
+    <p>Телефон: +7 (917) 123-95-65</p>
+    <p>GitHub: <a href="https://github.com/ваш_пользователь" target="_blank">github.com/arybzhanovazuhra-ctrl</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/ваш_профиль" target="_blank">linkedin.com/in/zuhra</a></p>
+</section>
 
-    <div class="section">
-        <h2>Навыки</h2>
-        <ul>
-            <li>Python </li>
-            <li>C++ </li>
-            <li>HTML и CSS </li>
-        </ul>
-    </div>
+<section class="skills">
+    <h2>Навыки</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python/ C++ </li>
+    </ul>
+</section>
 
-    <div class="section">
-        <h2>Контакты</h2>
-        <p>📧 Email: zuhra.arybzhanova@mail.ru </p>
-        <p>📱 Телефон: +7 917 123-95-65</p>
-        <p>💻 GitHub: arybzhanovazuhra-ctrl </p>
-    </div>
+<section class="education">
+    <h2>Образование</h2>
+    <ul>
+        <li><strong>Университет УГНТУ </strong> — Бакалавр "Прикладная информатика", группа: БПИ09-24-01, 2 курс (2024 - 2028)</li>
+    </ul>
+</section>
 
-    <div class="section">
-        <h2>О себе</h2>
-        <p>Я студентка 2 курса, учусь на направлении "Прикладная информатика".</p>
-        <p>Изучаю программирование и хочу стать разработчиком.</p>
-    </div>
+<footer style="text-align:center; margin-top:20px;">
+    <p>&copy; 2025 Ваше Имя. Все права защищены.</p>
+</footer>
 
 </body>
 </html>
