@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Зухрахон Арыбжанова</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        section {
+            background: white;
+            padding: 25px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 30px;
+        }
+        @media (max-width: 600px) {
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Зухрахон Арыбжанова</h1>
+    <p class="subtitle">Студент | Разработчик | УГНТУ</p>
+</header>
+
+<section class="contact-info">
+    <h2>Контактная информация</h2>
+    <div class="contact-item">
+        <strong>Email:</strong> zuhra.arybzhanova@mail.ru
+    </div>
+    <div class="contact-item">
+        <strong>Телефон:</strong> +7 (917)256 65 35
+    </div>
+    <div class="contact-item">
+        <strong>GitHub:</strong> 
+        <a href="https://github.com/ваш_пользователь" target="_blank">github.com/arybzhanovazuhra-ctrl</a>
+    </div>
+</section>
+
+<section class="education">
+    <h2>Образование</h2>
+    <div class="education-item">
+        <h3>Уфимский государственный нефтяной технический университет (УГНТУ)</h3>
+        <p><strong>Направление:</strong> Прикладная информатика</p>
+        <p><strong>Курс:</strong> 2 курс, бакалавриат</p>
+        <p><strong>Группа:</strong> БПИ09-24-01</p>
+    </div>
+</section>
+
+<section class="skills">
+    <h2>Навыки</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h3>Языки программирования</h3>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Веб-технологии</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Инструменты</h3>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Зухрахон Арыбжанова. Студент УГНТУ</p>
+</footer>
+
+</body>
+</html>
